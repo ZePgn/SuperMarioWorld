@@ -52,8 +52,8 @@ const loop = setInterval(() => {
     }
 
     if (gameRunning) {
-        score += 1; // Incrementa a pontuação
-        scoreElement.textContent = `Score: ${score}`; // Atualiza o elemento com a pontuação
+        score += 1; 
+        scoreElement.textContent = `Score: ${score}`; 
     }
 
 }, 100);
